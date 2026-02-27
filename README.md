@@ -1,4 +1,4 @@
-\## SEND \& Education Analytics Platform (Hybrid LA + MAT)
+## SEND \& Education Analytics Platform (Hybrid LA + MAT)
 
 
 
@@ -10,7 +10,7 @@ analytics environment (Local Authority + Multi-Academy Trust) with a full Medall
 
 
 
-\### What this demonstrates
+### What this demonstrates
 
 \- \*\*Bronze → Silver → Gold\*\* data engineering in Fabric (typed, standardised, conformed)
 
@@ -30,7 +30,7 @@ analytics environment (Local Authority + Multi-Academy Trust) with a full Medall
 
 
 
-\### Report pages (Power BI)
+### Report pages (Power BI)
 
 1\. \*\*Cover / Navigation Hub\*\* – KPI strip + section navigation
 
@@ -46,7 +46,7 @@ analytics environment (Local Authority + Multi-Academy Trust) with a full Medall
 
 
 
-\### Architecture
+### Architecture
 
 \- \*\*Bronze:\*\* raw ingested tables (synthetic data extracts)
 
@@ -56,7 +56,7 @@ analytics environment (Local Authority + Multi-Academy Trust) with a full Medall
 
 
 
-\### Screenshots
+### Screenshots
 
 See `/screenshots` for report pages, model diagram, and Fabric medallion tables.
 
