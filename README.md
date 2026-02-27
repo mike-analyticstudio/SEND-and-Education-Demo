@@ -12,11 +12,11 @@ analytics environment (Local Authority + Multi-Academy Trust) with a full Medall
 
 ### What this demonstrates
 
-\- \*\*Bronze → Silver → Gold\*\* data engineering in Fabric (typed, standardised, conformed)
+- **Bronze → Silver → Gold** data engineering in Fabric (typed, standardised, conformed)
 
-\- \*\*Star schema modelling\*\* for education + SEND analytics
+- **Star schema modelling** for education + SEND analytics
 
-\- KPI engineering for:
+- KPI engineering for:
 
 &nbsp; - Attendance %, Persistent Absence %
 
@@ -32,27 +32,27 @@ analytics environment (Local Authority + Multi-Academy Trust) with a full Medall
 
 ### Report pages (Power BI)
 
-1\. \*\*Cover / Navigation Hub\*\* – KPI strip + section navigation
+1\. **Cover / Navigation Hub** – KPI strip + section navigation
 
-2\. \*\*Executive Overview\*\* – attendance, attainment, gaps, top schools
+2\. **Executive Overview** – attendance, attainment, gaps, top schools
 
-3\. \*\*SEND Strategy\*\* – needs, placements, funding, provision vs outcomes
+3\. **SEND Strategy** – needs, placements, funding, provision vs outcomes
 
-4\. \*\*Behaviour \& Exclusions\*\* – severity, exclusions, safeguarding-style risk matrix
+4\. **Behaviour \& Exclusions** – severity, exclusions, safeguarding-style risk matrix
 
-5\. \*\*Schools \& Trusts\*\* – benchmarking across schools and trusts, geo insights
+5\. **Schools \& Trusts** – benchmarking across schools and trusts, geo insights
 
-6\. \*\*Pupil Drill-through\*\* – pupil journey timeline across attendance, attainment, behaviour and interventions
+6\. **Pupil Drill-through** – pupil journey timeline across attendance, attainment, behaviour and interventions
 
 
 
 ### Architecture
 
-\- \*\*Bronze:\*\* raw ingested tables (synthetic data extracts)
+- **Bronze:** raw ingested tables (synthetic data extracts)
 
-\- \*\*Silver:\*\* typed + cleaned + derived metrics (sessions present, absence flags, bands)
+- **Silver:** typed + cleaned + derived metrics (sessions present, absence flags, bands)
 
-\- \*\*Gold:\*\* curated dimensions/facts optimised for Power BI semantic models
+- **Gold:** curated dimensions/facts optimised for Power BI semantic models
 
 
 
