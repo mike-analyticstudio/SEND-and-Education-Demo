@@ -1,5 +1,10 @@
 ## SEND \& Education Analytics Platform (Hybrid LA + MAT)
 
+### Building an Impact-Focused SEND & Education Analytics Model (Power BI + Microsoft Fabric)
+
+With the ongoing national conversation around SEND funding pressures and sustainability of local authority budgets, the ability to measure the real impact of provision and interventions has become increasingly important.
+
+To explore how data platforms can support this challenge, I recently completed a project exercise focused on Special Educational Needs (SEND) and education performance analytics.
 
 
 This project aligns with publicly available Department for Education national statistics on Special Educational Needs; including SEN Support, EHC Plan classifications, 
@@ -28,6 +33,12 @@ analytics environment (Local Authority + Multi-Academy Trust) with a full Medall
 
 &nbsp; - Funding per SEND pupil and intervention impact
 
+
+### From a technical and architectural perspective, the project demonstrates:
+- Star schema dimensional modelling
+- DAX-driven gap and variance analysis
+- Impact and efficiency scoring metrics
+- Governance-aware modelling (no live pupil data used)
 
 
 ### Report pages (Power BI)
@@ -60,21 +71,32 @@ analytics environment (Local Authority + Multi-Academy Trust) with a full Medall
 
 See `/screenshots` for report pages, model diagram, and Fabric medallion tables.
 
-- \Screenshots\Dashboard : 
+- https://github.com/mike-analyticstudio/SEND-and-Education-Demo/tree/main/Screenshots\Dashboard : 
 Various dashboards of the Executive Overview, Fundings, Pupil Level, School metrics and analytics 
 
-- \Screenshots\Data
+- https://github.com/mike-analyticstudio/SEND-and-Education-Demo/tree/main/Screenshots/Data
+Overview of raw source data
 
-- \Screenshots\Notebook
+- https://github.com/mike-analyticstudio/SEND-and-Education-Demo/tree/main/Screenshots\Notebook
 Overview of the spark notebook which handles the csv source files, right up to the implementation of the Medallion Architecture build the final 'Star' schema model presented to analytics tools
 
-- \Screenshots\Semantic Model
+- https://github.com/mike-analyticstudio/SEND-and-Education-Demo/tree/main/Screenshots\Semantic Model
 Overview of modelling of the dimensions and facts in a star schema
 
-- \Screenshots\Table Schema
+- https://github.com/mike-analyticstudio/SEND-and-Education-Demo/tree/main/Screenshots\Table Schema
 Gold tier SQL_Lakehouse table schema for the bases of the analytics
+
+
+Always interested in connecting with others working in:
+
+- Public sector data platforms
+- Education analytics
+- SEND performance monitoring
+- Impact measurement frameworks
 
 - **Public Repo**: This repo is a Public repo that showcases Case study + screenshots + technical overviews
 
 - **Private repo**: Full scripts, data, pipelines, templates, and other utility implementation available on request (client access)
+
+#PowerBI #MicrosoftFabric #SEND #EducationAnalytics #BusinessIntelligence #DataEngineering #DfE #ImpactMeasurement
 
